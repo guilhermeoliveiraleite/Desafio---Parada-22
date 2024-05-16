@@ -1,0 +1,134 @@
+
+@import url('href="https://fonts.googleapis.com');
+
+body{font-family: "Radio Canada Big", sans-serif ; 
+    padding: 0px;
+    margin: 0px;
+    background-color: #d9e2e2;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    background-color: #9c9c9c;
+}
+
+#logo{
+    width: 300px;
+    align-self: center;
+    padding: 10px;
+}
+
+    
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: #ffffff;
+    
+    padding: 20px 16px;
+    text-decoration: none;
+    
+
+}
+
+#formcaixa{
+    margin: auto;
+    width: max-content;
+    padding: 15px;
+    background-color: #1feeee;
+    border-radius: 20px;
+    display: block;
+    text-align: justify;
+}
+
+#formcaixa h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.linha{
+    display: block;
+}
+
+.linha span{
+    padding: 10px;
+    margin: 10px;
+}
+
+.linha label{
+    display: block;
+    
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #233b85;
+
+}
+.linha input[type=text], input[type=date], input[type=password], select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+#botao{
+    cursor: pointer;
+    width: 531px;
+    height: 35px;
+    background-color: #f8f2f2;
+    border: none;
+    border-radius: 5px;
+    color: #020202;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#botao:hover{
+    transition: 0.5s;
+    background-color: #6285ee;
+}
+
+#alerta{
+    display: none;
+    background-color: #fc6767;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+a:hover{
+    background-color: #1feeee;
+}
+
+#footer{
+    background-color: #f4f5f5b9;
+    text-align: center;
+    
+}
+
+img{width: 100%;}
+
+@media(max-width: 960px){
+    .conteudo{
+        margin: 0px;
+        width: auto;
+        display: block;
+    }
+    .caixa{width: auto;}
+
+}
+
+@media(max-width: 452px){
+    h2{font-size: 18px;}
+}

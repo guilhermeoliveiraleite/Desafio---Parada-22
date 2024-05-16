@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Seu Emprego Tech</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/cadastrar.css">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <script src="js/formulario.js" defer></script>
+       
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="logo">
+                <img src="img/logo.png" alt="">
+                 </div>
+           
+            
+            <div id="nav">
+                        <div class="top_menu">
+                         <ul>
+                        
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="vagas.html"><strong>Vagas</strong></a></li>
+                    <li><a href=""><strong>Cadastrar cv</strong></a></li>
+                    
+                        </div>
+                         </ul>
+            </div>
+        </div>
+            <div class="class">
+                <div id="formcaixa">
+                    <h2>Cadastro de CV</h2>
+                    <p id="alerta">
+                        Preencha os campos obrigatórios!
+                    </p>
+                    <form action="">
+                        <div class="linha">
+                            <span>
+                            <label for="">Nome</label>
+                            <input type="text" name="" id="nome" required>
+                            </span>
+
+                            <span>
+                                <label for="">Sobrenome</label>
+                                <input type="text" name="" id="snome" required>
+                                </span>
+                        </div>
+
+                        <div class="linha">
+                            <span>
+                                <label for="">Telefone</label>
+                                <input type="number" name="" id="telefone" required>
+                            </span> 
+                            <span>
+                                <label for="">E-mail</label>
+                                <input type="text" name="" id="email" required>
+                            </span>
+                        </div>
+
+
+
+
+                        <div class="linha">
+                            <span>
+                                <label for="">Data nascimento</label>
+                                <input type="date" name="" id="data" required>
+                                </span>
+                        
+
+                        
+
+
+
+                                <span>
+                                    <label for="">Formação</label>
+                                    <select name="" id="">
+                                    <option value="">Ensino Técnico</option>
+                                    <option value="">Ensino Superior</option>
+                                    
+                                </select>
+                                    <label for="">Curso de formação</label>
+                                    <input type="text" name="" id="">
+
+                                    </span>
+                        </div>
+
+                        <div class="linha">
+                            <span>
+                                <label for="">Gênero:</label>
+                                Masculino
+                                <input type="radio" name="genero">
+                                Feminino
+                                <input type="radio" name="genero" id="">
+                                Outros
+                                <input type="radio" name="genero" id="">
+                            </span>
+                        </div>
+                            <div class="linha">
+                                <span>
+                                    <label for="">Foi indicado por alguem ?</label>
+                                    Sim
+                                    <input type="radio" name="indicacao">
+                                    Não 
+                                    <input type="radio" name="indicacao">
+                                    Se sim, escolha a opção: 
+                                    <select name="" id="">
+                                        <option value="">Alguem que trabalha na empresa</option>
+                                        <option value="">Curso/Faculdade</option>
+                                        <option value="">Feira da tecnologia</option>
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="linha">
+                                <span>
+                                    <label for="">Upload CV</label>
+                                    <input type="file" name="" id="up" required>
+                                </span>
+                                <p></p>
+                            </div>
+                            <div class="linha">
+                                <span>
+                                    Escolha a vaga que pretende candidatar-se: 
+                                    <select name="" id="vaga">
+                                        <option value="">Cloud - Estágio</option>
+                                        <option value="">FrontEnd - Pleno</option>
+                                        <option value="">Análise de Dados - Estágio</option>
+                                        <option value="">IA - Trainee</option>
+                                        <option value="">[Remoto] Dev Java - Senior</option>
+                                        <option value="">Dev ERP - Pleno</option>
+                                    </select>
+                                </span>
+                            </div>
+                            <p></p>
+                                <div class="linha">
+                                <span>
+                                    <input onclick="validacao()" type="submit" id="botao" value="cadastrar" >
+                                </span>
+                            </div>
+                            <p></p>
+                    </form>
+                </div>
+            </div>
+       
+        <div id="footer">&copy; Desenvolvido por Guilherme Leite - 2024</div>
+    </body>
+
+</html>
